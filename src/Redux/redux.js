@@ -27,7 +27,6 @@ const cartSlice = createSlice({
   },
 });
 
-// Redux Store 설정
 export const store = configureStore({
   reducer: {
     menu: menuSlice.reducer,
